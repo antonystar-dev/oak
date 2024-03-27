@@ -6,16 +6,16 @@
     <input type="text" name="nome">  
   </div>
   <div>
-    <label>Nome</label>
-    <input type="text" name="nome">  
+    <label>Descrição</label>
+    <input type="text" name="descricao">  
   </div>
   <div>
-    <label>Nome</label>
-    <input type="text" name="nome">  
+    <label>valor</label>
+    <input type="text" name="valor">  
   </div>
   <div>
-    <label>Nome</label>
-    <input type="text" name="nome">  
+    <label>Disponivel</label>
+    <input type="text" name="disponibilidade">  
   </div>
   <div>
     <button type="submit">Cadastrar</button>

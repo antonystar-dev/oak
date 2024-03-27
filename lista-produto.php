@@ -6,7 +6,7 @@ $qtd = $res->num_rows;
 if ($qtd > 0) {
     echo "<table border='1'>";
     echo "<tr>";
-   
+    echo "<th>ID</th>";
     echo "<th>NOME</th>";
     echo "<th>DESCRIÇÃO</th>";
     echo "<th>VALOR</th>";
@@ -17,6 +17,7 @@ if ($qtd > 0) {
         echo "<tr>";
         echo "<td>" . $id = $row->id . "</td>";
         echo "<td>" . $nome = $row->nome . "</td>";
+        echo "<td>" . $descricao = $row->descricao . "</td>";
         echo "<td>" . $valor = $row->valor . "</td>";
         echo "<td>" . $disponivel = $row->disponibilidade . "</td>";
         echo "<td>

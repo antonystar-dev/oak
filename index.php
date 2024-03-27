@@ -39,6 +39,7 @@
             include("salvar-produto.php");
             case "editar":
               include("editar-produto.php");
+              break;
           default:
           include("lista-produto.php");
 
