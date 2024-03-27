@@ -41,4 +41,4 @@ INSERT INTO `produto` (`id`, `nome`, `descricao`, `valor`, `disponibilidade`) VA
 (14, 'apolo', 'testede select', '810', 'sim');
 ```
 
-Disponibilidade em:[dev.antonystar.com/oak](http://dev.antonystar.com/oak/)  (Se eu colocar no ambbiente de produção irei atualizar o link)
+Disponibilidade em:[dev.antonystar.com/oak](http://dev.antonystar.com/oak/)  (Se eu colocar no ambiente de produção irei atualizar o link)
