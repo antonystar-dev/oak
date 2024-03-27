@@ -59,6 +59,21 @@ body {
 .botaoAlterar:hover{
     background-color: #010202;
 }
+.botaoAlterarProduto {
+    background-color: #3b85f3;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold; 
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-top:15px;
+    margin-left: 70px;
+}
+.botaoAlterarProduto:hover{
+    background-color: #010202;
+}
 .botaoCadastar {
     background-color: #05bd61;
     color: #ffffff;
@@ -76,4 +91,16 @@ body {
 }
 .informativo{
     background-color: red;
+}
+.campoNome{
+    background-color: #ffffff;
+    color: rgb(13, 84, 236);
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+label{
+ 
+    font-size: 20px;
 }
