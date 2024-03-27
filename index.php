@@ -6,22 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Oak Tecnologia</title>
   <!--Bootstrap -->
-  <link href="bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   
       <div class="menu">
-            <a href="index.php">Home</a>
-       
-            <a href="?page=novo">Novo produto</a>
+            <a href="?page=novo" class="itemMenu">Novo</a>
         
-            <a href="?page=listar">Listar produto</a>
+            <a href="?page=listar" class="itemMenu">Listar</a>
 </div>
-       <div>
+<div class="div-viewport">
+       <div class="informativo">
         <h1>Informativos</h1>
         Olá OAK, estou muito feliz em participar do processo seletivo, voces podem me conhecer mais um pouquinho visitando meu portifolio em:
           Esse projeto está funcionando em: (a disponibilidade pode variar um pouco, ja que meu servidor é local)
+          Podem acompanhar do historico de desenvolvimento desse crud em ------
 
 </div> 
   <div>
@@ -46,7 +46,7 @@
         }
         ?>
       </div>
-   
+      </div>
 </body>
 
 </html>

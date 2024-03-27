@@ -1,0 +1,79 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Open Sans';
+}
+.div-viewport {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    background-color: rgb(104, 79, 74);
+    
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+   color: white;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.itemMenu{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+   
+}
+.botaoExcluir {
+    background-color: #f14545;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold; 
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.botaoExcluir:hover{
+    background-color: #000000;
+}
+.botaoAlterar {
+    background-color: #3b85f3;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold; 
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.botaoAlterar:hover{
+    background-color: #010202;
+}
+.botaoCadastar {
+    background-color: #05bd61;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold; 
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.botaoCadastar:hover{
+    background-color: #010202;
+}
+.informativo{
+    background-color: red;
+}

@@ -18,6 +18,6 @@
     <input type="text" name="disponibilidade">  
   </div>
   <div>
-    <button type="submit">Cadastrar</button>
+    <button type="submit" class="botaoCadastar">Cadastrar</button>
 </div>
 </form>
