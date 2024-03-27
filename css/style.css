@@ -8,7 +8,7 @@ body {
 .div-viewport {
 
     display: flex;
-    flex-wrap: wrap;
+    
     align-items: center;
     justify-content: center;
 }
@@ -90,8 +90,20 @@ body {
     background-color: #010202;
 }
 .informativo{
-    background-color: red;
+    background-color: rgb(247, 186, 186);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding:20px;
+    padding-left: 50px;
+    border: 1px solid red;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 20px;
 }
+.link{
+    text-decoration: none;
+    color: red;
+}
+
 .campoNome{
     background-color: #ffffff;
     color: rgb(13, 84, 236);
